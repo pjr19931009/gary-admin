@@ -1,0 +1,40 @@
+// color
+$blue: #3b5999;
+$deepBlue: #2f3755;
+
+$white: #fff;
+$white-1: #f8f8f8;
+
+$grey: #34465d;
+$grey-1: #a7a7a7;
+
+$black: #22252A;
+$black-1: #17191C;
+$black-2: #1B1E22;
+$black-3: #1D1D1D;
+
+
+
+// font
+$font-color-default: #333;
+$font-color-1: #fff;
+$font-color-2: #409eff;
+$font-color-3: #707070;
+//shadow
+$box-shadow-black: 0 2px 12px 0 rgba(0, 0, 0, 0.5);
+
+// sidebar
+$width-sidebar-open: 240px;
+$width-sidebar-close: 65px;
+
+//topbar
+$height-topbar: 100px;
+$height-topbar-tools: 60px;
+$height-tagView: 30px;
+
+$device-ipad: 800px;
+
+:export {
+  white: $white;
+  fontColorGrey: $font-color-3;
+}

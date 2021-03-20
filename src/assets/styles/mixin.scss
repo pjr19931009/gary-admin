@@ -1,0 +1,37 @@
+@mixin theme-bg($bg) {
+  background: $bg !important;
+}
+
+@mixin theme-fontColor($bg) {
+  color: $bg !important;
+}
+
+.theme-bg {
+  @include theme-bg($black);
+}
+
+.theme-bg-1 {
+  @include theme-bg($black);
+
+  a {
+    &:hover {
+      background: $black-2 !important;
+    }
+  }
+}
+
+.theme-bg-2 {
+  @include theme-bg($black-3);
+}
+
+.theme-topbar-bg {
+  @include theme-bg($black);
+  border: none !important;
+}
+
+.theme-font {
+  @include theme-fontColor($font-color-3);
+}
+.theme-font-1 {
+  @include theme-fontColor($font-color-3);
+}
